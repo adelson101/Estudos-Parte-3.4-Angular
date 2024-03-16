@@ -27,21 +27,19 @@ export class ListaLivrosComponent implements OnDestroy {
 
   livrosResultadoParaLivros(items): Livro[] {
    const livros: Livro[] = [];
-
-    livros.push(
-      items.forEach( (item) => {
-        this.livro = {
-          title: item.VolumeInfo?.title,
-          authors: item.VolumeInfo?.authors,
-          publisher: item.VolumeInfo?.publisher,
-          publishedDate: item.VolumeInfo?.publishedDate,
-          description: item.VolumeInfo?.description,
-          previewLink: item.VolumeInfo?.previewLink,
-          thumbnail: item.VolumeInfo?.imageLinks?.thumbnail
-        }
-      })
-    );
-    console.log(livros);
+      items.forEach( item => {
+        livros.push(
+          this.livro = {
+            title: item.volumeInfo?.title,
+            authors: item.volumeInfo?.authors,
+            publisher: item.volumeInfo?.publisher,
+            publishedDate: item.volumeInfo?.publishedDate,
+            description: item.volumeInfo?.description,
+            previewLink: item.volumeInfo?.previewLink,
+            thumbnail: item.volumeInfo?.imageLinks?.thumbnail
+          }
+        )
+      });
 
     return livros;
   }
