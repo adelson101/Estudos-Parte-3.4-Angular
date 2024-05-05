@@ -1,27 +1,24 @@
-# Buscante
+O Buscante é um projeto Angular que utiliza a API do Google Books para buscar e exibir informações sobre livros. Ele permite aos usuários pesquisar por livros, exibindo detalhes como título, autor, descrição e outras informações relevantes obtidas da API. O projeto também utiliza Observables do RXJS para facilitar a busca e exibição dos resultados de forma dinâmica e responsiva.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+Recursos Principais:
 
-## Development server
+Busca de Livros: Os usuários podem realizar buscas por livros utilizando palavras-chave ou frases, obtendo resultados relevantes da API do Google Books.
+Exibição de Detalhes: O Buscante exibe detalhes importantes sobre os livros encontrados, como título, autor, descrição, capa e outras informações disponíveis na API.
+Sistema de Busca Dinâmico: O projeto utiliza Observables do RXJS para implementar um sistema de busca dinâmico, que atualiza os resultados conforme o usuário digita, proporcionando uma experiência de busca mais fluida e interativa.
+Layout Responsivo: O layout do Buscante é responsivo, adaptando-se a diferentes tamanhos de tela e dispositivos, garantindo uma experiência consistente em desktops, tablets e smartphones.
+Objetivo do Projeto:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O objetivo do Buscante é oferecer aos usuários uma ferramenta eficiente e fácil de usar para encontrar informações sobre livros, facilitando a descoberta e aquisição de novas obras literárias.
 
-## Code scaffolding
+Tecnologias Utilizadas:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Angular,
+TypeScript,
+HTML,
+CSS,
+API do Google Books,
+RXJS (para Observables)
 
-## Build
+Contribuições:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+O Buscante é um projeto de código aberto da Alura.
